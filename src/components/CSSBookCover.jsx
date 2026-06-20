@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 // Maps book categories to default cover themes
 const categoryThemes = {

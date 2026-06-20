@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import { Star, ArrowRight } from 'lucide-react';
 import CSSBookCover from './CSSBookCover';
