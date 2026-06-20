@@ -36,7 +36,7 @@ export default function BookCard({ book }) {
           
           <Link to={`/book/${book.id}`} className="book-card-link">
             <span>View Details</span>
-            <ArrowRight size={14} />
+            <ArrowRight size={ 14} />
           </Link>
         </div>
       </div>
