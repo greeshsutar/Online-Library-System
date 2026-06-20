@@ -1,10 +1,10 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { Link } from 'react-redux'; // Wait, let's use react-router-dom Link!
 import { selectAllBooks } from '../redux/booksSlice';
 import BookCard from '../components/BookCard';
 import { BookOpen, Sparkles, Award, Users, ChevronRight, Bookmark } from 'lucide-react';
 import { Link as RouterLink } from 'react-router-dom';
+
 
 // Categories list with custom descriptive items and icons
 const categories = [
